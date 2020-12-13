@@ -37,7 +37,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 echo "====sshkey copied to clipboard====="
 cat ~/.ssh/id_rsa.pub
 
-read -p "Are you sure you put sshkey on github? " -n 1 -r
+read -p "Are you sure you put sshkey on git? " -n 1 -r
 echo 
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
