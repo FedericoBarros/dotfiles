@@ -59,7 +59,7 @@ let g:NERDTreeGitStatusIndicatorMapCustom={
     \ "Unknown"   : "?"
     \ }
 
-"autocmd VimEnter * NERDTree
+autocmd VimEnter * NERDTree
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -79,4 +79,4 @@ let g:gitgutter_sign_modified_removed = '-'
 
 let g:airline_powerline_fonts = 1
 
-source ~/.config/nvim/cocrc
+source ~/.config/nvim/.cocrc
