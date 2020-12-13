@@ -53,8 +53,8 @@ mkdir ~/.config
 mkdir ~/.config/nvim
 
 cd ~
-ln -s "$parent_path"/vimrc .vimrc
+ln -s "$parent_path"/neovim/vimrc .vimrc
 
 cd ~/.config/nvim
-ln -s "$parent_path"/init.vim init.vim
-ln -s "$parent_path"/cocrc .cocrc
+ln -s "$parent_path"/neovim/init.vim init.vim
+ln -s "$parent_path"/neovim/cocrc .cocrc
