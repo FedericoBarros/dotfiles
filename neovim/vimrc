@@ -30,10 +30,12 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdtree'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
-colorscheme gruvbox
+colorscheme gruvbox 
 
 let g:gruvbox_constrast_dark = "hard"
 let NERDTreeQuitOnOpen=1
